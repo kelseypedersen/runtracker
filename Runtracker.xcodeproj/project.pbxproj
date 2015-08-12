@@ -16,6 +16,13 @@
 		A8C3907A1B7BBD1700B1CA2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C390791B7BBD1700B1CA2E /* Images.xcassets */; };
 		A8C3907D1B7BBD1700B1CA2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C3907B1B7BBD1700B1CA2E /* LaunchScreen.xib */; };
 		A8C390891B7BBD1700B1CA2E /* RuntrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C390881B7BBD1700B1CA2E /* RuntrackerTests.m */; };
+		A8C390941B7BBE5F00B1CA2E /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C390931B7BBE5F00B1CA2E /* Run.m */; };
+		A8C390971B7BBE6000B1CA2E /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C390961B7BBE6000B1CA2E /* Location.m */; };
+		A8C390991B7BBF5B00B1CA2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C390981B7BBF5B00B1CA2E /* MapKit.framework */; };
+		A8C3909B1B7BBF6400B1CA2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C3909A1B7BBF6400B1CA2E /* CoreGraphics.framework */; };
+		A8C3909D1B7BBF6C00B1CA2E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C3909C1B7BBF6C00B1CA2E /* CoreData.framework */; };
+		A8C3909F1B7BBF7400B1CA2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C3909E1B7BBF7400B1CA2E /* UIKit.framework */; };
+		A8C390A11B7BBF7D00B1CA2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C390A01B7BBF7D00B1CA2E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,15 @@
 		A8C390821B7BBD1700B1CA2E /* RuntrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C390871B7BBD1700B1CA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8C390881B7BBD1700B1CA2E /* RuntrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntrackerTests.m; sourceTree = "<group>"; };
+		A8C390921B7BBE5F00B1CA2E /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		A8C390931B7BBE5F00B1CA2E /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		A8C390951B7BBE6000B1CA2E /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		A8C390961B7BBE6000B1CA2E /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		A8C390981B7BBF5B00B1CA2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A8C3909A1B7BBF6400B1CA2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8C3909C1B7BBF6C00B1CA2E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A8C3909E1B7BBF7400B1CA2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8C390A01B7BBF7D00B1CA2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C390A11B7BBF7D00B1CA2E /* Foundation.framework in Frameworks */,
+				A8C3909F1B7BBF7400B1CA2E /* UIKit.framework in Frameworks */,
+				A8C3909D1B7BBF6C00B1CA2E /* CoreData.framework in Frameworks */,
+				A8C3909B1B7BBF6400B1CA2E /* CoreGraphics.framework in Frameworks */,
+				A8C390991B7BBF5B00B1CA2E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +89,11 @@
 		A8C3905A1B7BBD1600B1CA2E = {
 			isa = PBXGroup;
 			children = (
+				A8C390A01B7BBF7D00B1CA2E /* Foundation.framework */,
+				A8C3909E1B7BBF7400B1CA2E /* UIKit.framework */,
+				A8C3909C1B7BBF6C00B1CA2E /* CoreData.framework */,
+				A8C3909A1B7BBF6400B1CA2E /* CoreGraphics.framework */,
+				A8C390981B7BBF5B00B1CA2E /* MapKit.framework */,
 				A8C390651B7BBD1600B1CA2E /* Runtracker */,
 				A8C390851B7BBD1700B1CA2E /* RuntrackerTests */,
 				A8C390641B7BBD1600B1CA2E /* Products */,
@@ -96,6 +122,10 @@
 				A8C390791B7BBD1700B1CA2E /* Images.xcassets */,
 				A8C3907B1B7BBD1700B1CA2E /* LaunchScreen.xib */,
 				A8C3906D1B7BBD1700B1CA2E /* Runtracker.xcdatamodeld */,
+				A8C390951B7BBE6000B1CA2E /* Location.h */,
+				A8C390961B7BBE6000B1CA2E /* Location.m */,
+				A8C390921B7BBE5F00B1CA2E /* Run.h */,
+				A8C390931B7BBE5F00B1CA2E /* Run.m */,
 				A8C390661B7BBD1600B1CA2E /* Supporting Files */,
 			);
 			path = Runtracker;
@@ -228,8 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C390751B7BBD1700B1CA2E /* DetailViewController.m in Sources */,
+				A8C390971B7BBE6000B1CA2E /* Location.m in Sources */,
 				A8C390721B7BBD1700B1CA2E /* MasterViewController.m in Sources */,
 				A8C3906C1B7BBD1700B1CA2E /* AppDelegate.m in Sources */,
+				A8C390941B7BBE5F00B1CA2E /* Run.m in Sources */,
 				A8C390691B7BBD1600B1CA2E /* main.m in Sources */,
 				A8C3906F1B7BBD1700B1CA2E /* Runtracker.xcdatamodeld in Sources */,
 			);
